@@ -6,6 +6,8 @@ import java.util.Calendar;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
+        System.out.print("");
         System.out.print("" + new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(Calendar.getInstance().getTime()));
+        System.out.print("");
     }
 }
